@@ -551,10 +551,10 @@ const Contact = () => {
           <div className="h-96 lg:h-auto w-full bg-gray-100 relative">
             <Reveal delay={1} className="h-full w-full">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2475.2345!2d-0.1983!3d51.6978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48763d5aaf5ad5cd%3A0x123456789!2sUnit%206%20Summit%20Rd%2C%20Potters%20Bar%20EN6%203QW!5e0!3m2!1sen!2suk!4v1234567890" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2472.5784141669455!2d-0.19973779999999997!3d51.7041596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48763dda48c202a3%3A0x374e6681c59e3a11!2sPotters%20Bar%20Tyres!5e0!3m2!1sen!2suk!4v1764457434386!5m2!1sen!2suk" 
                 width="100%" 
                 height="100%" 
-                style={{border: 0, filter: 'grayscale(100%) invert(0%) contrast(80%)'}} 
+                style={{border: 0, filter: ' invert(0%) contrast(80%)'}} 
                 allowFullScreen="" 
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
