@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pbtyres/static/css/main.be01ac3b.css",
+    "main.js": "/pbtyres/static/js/main.0520ad25.js",
+    "index.html": "/pbtyres/index.html",
+    "main.be01ac3b.css.map": "/pbtyres/static/css/main.be01ac3b.css.map",
+    "main.0520ad25.js.map": "/pbtyres/static/js/main.0520ad25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be01ac3b.css",
+    "static/js/main.0520ad25.js"
+  ]
+}
