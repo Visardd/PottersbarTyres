@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from "@vercel/analytics/react"
 import { Phone,Activity,Cog, Sliders, RefreshCw, Target, MapPin, Clock, Star, ArrowRight, Menu, X, Wrench, ShieldCheck, Truck,Disc, Instagram, MessageCircle, ChevronLeft, ChevronRight, Car } from 'lucide-react';
 import { Icon } from 'lucide-react';
 // import { Cog, Sliders, RefreshCw } from '@lucide/lab';
@@ -619,6 +620,7 @@ const App = () => {
       <Contact />
       <Footer />
       <SpeedInsights/>
+      <Analytics />
     </div>
   );
 };
