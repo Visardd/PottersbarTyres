@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Phone, MapPin, Clock, Star, ArrowRight, Menu, X, Wrench, ShieldCheck, Truck, Instagram, MessageCircle, ChevronLeft, ChevronRight } from 'lucide-react';
-
+import { Phone,Activity,Cog, Sliders, RefreshCw, Target, MapPin, Clock, Star, ArrowRight, Menu, X, Wrench, ShieldCheck, Truck,Disc, Instagram, MessageCircle, ChevronLeft, ChevronRight, Car } from 'lucide-react';
+import { Icon } from 'lucide-react';
+// import { Cog, Sliders, RefreshCw } from '@lucide/lab';
 /**
  * Hook for intersection observer animations
  * Triggers a fade-in effect when elements come into view
@@ -176,7 +177,7 @@ const Hero = () => {
   
   const slides = [
     "https://res.cloudinary.com/dh4m8u7in/image/upload/v1764441661/Background1_azmj95.png",
-    "https://res.cloudinary.com/dh4m8u7in/image/upload/v1764450609/Tracking_af3ipk.png",
+    "https://res.cloudinary.com/dh4m8u7in/image/upload/v1765667494/HDCAR123jpg_ajaq3y.jpg",
     "https://res.cloudinary.com/dh4m8u7in/image/upload/v1764452107/RAck_ontqm6.jpg",
   ];
 
@@ -321,12 +322,12 @@ const Services = () => {
     {
       title: "New & Part Worn Tyres",
       desc: "Premium brands and high-quality budget options tailored to your vehicle.",
-      icon: <Truck className="w-8 h-8 mb-6 text-gray-700" />
+      icon: <Disc className="w-8 h-8 mb-6 text-gray-700" />
     },
     {
       title: "Precision Balancing",
       desc: "State-of-the-art equipment ensures your drive is smooth and vibration-free.",
-      icon: <ShieldCheck className="w-8 h-8 mb-6 text-gray-700" />
+      icon: <Activity className="w-8 h-8 mb-6 text-gray-700" />
     },
     {
       title: "Puncture Repairs",
@@ -336,22 +337,22 @@ const Services = () => {
     {
       title: "Tracking (HUNTER)",
       desc: "Professional wheel alignment using advanced HUNTER technology for perfect handling.",
-      icon: <ShieldCheck className="w-8 h-8 mb-6 text-gray-700" />
+      icon: <Target className="w-8 h-8 mb-6 text-gray-700" />
     },
     {
       title: "Alloy Wheels",
-      desc: "Wide selection of premium alloy wheels to enhance your vehicle's style and performance.",
-      icon: <Truck className="w-8 h-8 mb-6 text-gray-700" />
+      desc: "Wide selection of alloy wheels to enhance your vehicle's style and performance.",
+      icon: <Cog className="w-8 h-8 mb-6 text-gray-700" />
     },
     {
       title: "Spacers",
       desc: "Expert installation of wheel spacers for the perfect stance and clearance.",
-      icon: <Wrench className="w-8 h-8 mb-6 text-gray-700" />
+      icon: <Sliders className="w-8 h-8 mb-6 text-gray-700" />
     },
     {
       title: "Wheel Refurbishment",
       desc: "Professional repair and refinishing of damaged alloy wheels to like-new condition.",
-      icon: <ShieldCheck className="w-8 h-8 mb-6 text-gray-700" />
+      icon: <RefreshCw className="w-8 h-8 mb-6 text-gray-700" />
     }
   ];
 
@@ -503,6 +504,9 @@ const Contact = () => {
                     <h4 className="text-sm font-bold uppercase tracking-widest mb-2">Contact</h4>
                     <p className="text-gray-600 text-lg hover:text-red-600 transition-colors">
                       <a href="tel:07961564194">07961 564194</a>
+                    </p>
+                    <p className="text-gray-600 text-lg hover:text-red-600 transition-colors">
+                      <a href="tel:02031619863">0203 161 9863</a>
                     </p>
                   </div>
                 </div>
