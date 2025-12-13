@@ -180,6 +180,7 @@ const Hero = () => {
     "https://res.cloudinary.com/dh4m8u7in/image/upload/v1764441661/Background1_azmj95.png",
     "https://res.cloudinary.com/dh4m8u7in/image/upload/v1765667494/HDCAR123jpg_ajaq3y.jpg",
     "https://res.cloudinary.com/dh4m8u7in/image/upload/v1764452107/RAck_ontqm6.jpg",
+     "https://res.cloudinary.com/dh4m8u7in/image/upload/v1765668519/ROLLSSSS_rthxtb.jpg",
   ];
 
   useEffect(() => {
