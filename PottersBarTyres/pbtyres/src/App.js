@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Analytics } from "@vercel/analytics/react"
-import { Phone,Activity,Cog, Sliders, RefreshCw, Target, MapPin, Clock, Star, ArrowRight, Menu, X, Wrench, ShieldCheck, Truck,Disc, Instagram, MessageCircle, ChevronLeft, ChevronRight, Car } from 'lucide-react';
-import { Icon } from 'lucide-react';
+import { Phone,Activity,Cog, Sliders, RefreshCw, Target, MapPin, Clock, Star, ArrowRight, Menu, X, Wrench, Disc, Instagram, MessageCircle, ChevronLeft, ChevronRight } from 'lucide-react';
 // import { Cog, Sliders, RefreshCw } from '@lucide/lab';
 /**
  * Hook for intersection observer animations
@@ -74,7 +73,7 @@ const Navigation = () => {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? 'bg-white/90 backdrop-blur-md py-4 shadow-sm' : 'bg-transparent py-6'}`}>
       <div className="container mx-auto px-6 flex justify-between items-center">
-        <a href="#" className="z-50">
+        <a href="#top" className="z-50">
         <img 
           src="https://res.cloudinary.com/dh4m8u7in/image/upload/v1764446489/Logo_dlvzsv.jpg" 
           alt="PB Tyres Logo" 
