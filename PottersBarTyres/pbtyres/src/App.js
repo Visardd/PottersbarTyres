@@ -256,12 +256,12 @@ const Hero = () => {
       <div className="absolute bottom-12 right-6 md:right-12 hidden md:block text-right">
         <p className="text-white/60 text-xs uppercase tracking-widest mb-2">Google Rating</p>
         <div className="flex items-center gap-2 justify-end text-white">
-          <span className="text-3xl font-serif">5.0</span>
+          <span className="text-3xl font-serif">4.9</span>
           <div className="flex text-yellow-500">
             {[...Array(5)].map((_, i) => <Star key={i} size={16} fill="currentColor" />)}
           </div>
         </div>
-        <p className="text-white/40 text-xs mt-1">Based on 199+ Reviews</p>
+        <p className="text-white/40 text-xs mt-1">Based on 250+ Reviews</p>
       </div>
 
       {/* Slideshow Controls - Left Arrow */}
@@ -304,8 +304,8 @@ const Stats = () => {
     <section className="bg-black text-white py-24 border-t border-white/10">
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-center md:text-left">
         <Reveal>
-          <h3 className="text-4xl font-serif mb-2">199+</h3>
-          <p className="text-gray-500 text-sm uppercase tracking-widest">5-Star Reviews</p>
+          <h3 className="text-4xl font-serif mb-2">250+</h3>
+          <p className="text-gray-500 text-sm uppercase tracking-widest">Google Reviews · 4.9★</p>
         </Reveal>
         <Reveal delay={1}>
           <h3 className="text-4xl font-serif mb-2">100%</h3>
@@ -424,7 +424,7 @@ const AboutSection = () => {
                   At Potters Bar Tyres, we believe that tyre safety shouldn't be complicated. Located conveniently on Summit Road, we have built a reputation for excellence that speaks for itself.
                 </p>
                 <p>
-                  With over 199 five-star reviews, our community trusts us because we value honesty over sales. We will never sell you a tyre you don't need.
+                  With a 4.9-star rating from over 250 Google reviews, our community trusts us because we value honesty over sales. We will never sell you a tyre you don't need.
                 </p>
                 <div className="pt-8">
                    <a href="https://www.google.com/maps/dir//Potters+Bar+Tyres+Unit+6+Summit+Rd+Potters+Bar+EN6+3QW" target="_blank" rel="noreferrer" className="inline-block border-b border-black pb-1 uppercase text-xs tracking-widest hover:text-red-600 hover:border-red-600 transition-colors">
@@ -454,7 +454,7 @@ const Reviews = () => {
               {[...Array(5)].map((_, i) => <Star key={i} size={24} fill="currentColor" />)}
             </div>
             <h2 className="text-3xl md:text-5xl font-serif">"Excellent Service"</h2>
-            <p className="mt-4 text-gray-500 uppercase tracking-widest text-xs">Based on 199+ Google Reviews</p>
+            <p className="mt-4 text-gray-500 uppercase tracking-widest text-xs">Rated 4.9 · Based on 250+ Google Reviews</p>
           </div>
         </Reveal>
 
